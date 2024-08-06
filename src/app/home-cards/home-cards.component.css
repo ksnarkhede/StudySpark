@@ -9,3 +9,8 @@
     border-color:black ;
     border-width: 2px;
 }
+.card-title{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
