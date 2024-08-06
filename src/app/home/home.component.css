@@ -1,0 +1,93 @@
+.home-section{
+    display: flex;
+    justify-content: center; 
+}
+.home-icon{
+    position: relative;
+    /* left: 335px; */
+    margin-top: 7.5vw;
+    width: 160px;
+    margin-right: 20px;
+}
+.icon-title{
+    position: relative;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 220px;
+    /* left: 100px; */
+}
+.icon-subtitle{
+    position: relative;
+    width: 350px;
+    font-size: 35px;
+    font-weight: 200;
+    font-family:'arial';
+    top: 170px;
+    color: gray;
+    left: 22.5px;
+}
+.sign-in-button{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 1vh;
+    padding-left: 2vh;
+    /* padding: 0.75vh; */
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: white;
+    background-color: grey;
+}
+.register-button{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 1vh;
+    padding-left: 2vh;
+    /* padding: 0.75vh; */
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.home-buttons{
+    position: absolute;
+    top: 625px;
+    margin-right: 30px;
+    /* left: -10px; */
+}
+.home-heading{
+    position: absolute;
+}
+.home-line{
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: black;
+    top: 720px;
+    margin-right: 10px;
+}
+.about-home-heading{
+    position: absolute;
+    top: 750px;
+    left: 120px;
+    font-size: 20px;
+    font-weight:bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cards-home{
+    position: absolute;
+    top: 830px;
+    left: 90px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+  /* grid-row: auto auto; */
+  grid-column-gap: 175px;
+  grid-row-gap: 10px;
+    
+}

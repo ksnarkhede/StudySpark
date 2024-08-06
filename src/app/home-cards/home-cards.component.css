@@ -1,0 +1,11 @@
+.home-card{
+    position: relative;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    border-style: inset;
+    border-color:black ;
+    border-width: 2px;
+}
