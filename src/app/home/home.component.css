@@ -5,9 +5,9 @@
 .home-icon{
     position: relative;
     /* left: 335px; */
-    margin-top: 7.5vw;
-    width: 160px;
-    margin-right: 20px;
+    margin-top: 5.5vw;
+    width: 200px;
+    /* margin-right: 10px; */
 }
 .icon-title{
     position: relative;
@@ -25,12 +25,13 @@
     font-family:'arial';
     top: 170px;
     color: gray;
-    left: 22.5px;
+    left: 26px;
 }
 .sign-in-button{
     position: relative;
     margin-left: 20px;
     margin-right: 20px;
+    width: 100px;
     font-size: large;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 1vh;
@@ -44,6 +45,8 @@
 }
 .register-button{
     position: relative;
+    width: 100px;
+
     margin-left: 20px;
     margin-right: 20px;
     font-size: large;
@@ -59,6 +62,7 @@
     position: absolute;
     top: 625px;
     margin-right: 30px;
+    margin-left: 12px;
     /* left: -10px; */
 }
 .home-heading{

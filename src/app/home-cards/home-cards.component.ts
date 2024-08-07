@@ -8,6 +8,7 @@ import { Component,Input } from '@angular/core';
   styleUrl: './home-cards.component.css'
 })
 export class HomeCardsComponent {
-  @Input() hero: String='';
-  cardTitle!:String;
+  @Input() cardTitle: String='';
+  @Input() cardDescription: String='';
+
 }
